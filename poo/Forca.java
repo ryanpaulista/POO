@@ -10,7 +10,7 @@ public class Forca{
     private String escolherPalavra(){
         String[] linhas = 
             Files
-            .readAllLines(Paths.get(palavras.txt))
+            .readAllLines(Paths.get(palavras.txt));
             .toArray(new String[0]);
         return linhas[(new Random()).nextInt(linhas.lenght())];
     }

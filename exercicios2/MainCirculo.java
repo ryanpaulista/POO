@@ -13,8 +13,11 @@ public class MainCirculo{
         System.out.println(raio);
 
         circulo.CalcularArea(raio);
-        System.out.println(circulo.getArea());
+        System.out.println("Área: " + circulo.getArea());
 
+        circulo.CalcularCircunferencia(raio);
+        System.out.println("Perímetro: " + circulo.getCircunferencia());
+        
     }
 
 }
