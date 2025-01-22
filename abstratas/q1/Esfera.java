@@ -1,12 +1,15 @@
 class Esfera extends Figura{
-    private double raio, volume;
+    private double volume;
 
     public Esfera(){
-        this.raio = 0;
         this.volume = 0; 
     }
 
-    public CalcularVolume(double raio){
-        this.volume = (4/3) // terminar
+    public void CalcularVolume(double raio){
+        this.volume = (4/3)*3.14*(raio*raio*raio); 
+    }
+
+    Override double getVolume(){
+        return this.volume + 1000;
     }
 }
