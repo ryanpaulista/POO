@@ -4,7 +4,6 @@ import java.util.stream.Collectors;
 
 public class ex7 {
 
-    // Tornando a classe Pessoa static
     public static class Pessoa {
         private String nome;
         private int idade;
@@ -29,10 +28,9 @@ public class ex7 {
     }
 
     public static void main(String[] args) {
-        // Criando uma lista mutável de Pessoas
+    
         List<Pessoa> listaDePessoas = new ArrayList<>();
 
-        // Adicionando uma pessoa à lista
         listaDePessoas.add(new Pessoa("João", 25));
         listaDePessoas.add(new Pessoa("Ana", 17));
         listaDePessoas.add(new Pessoa("Carlos", 30));
