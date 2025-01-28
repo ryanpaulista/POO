@@ -4,8 +4,7 @@ import java.util.stream.*;
 import java.util.stream.Collectors;
 
 
-public class Main
-{
+public class ex5 {
 	public static void main(String[] args) {
 		
         IntStream.iterate(2, n -> n+2)

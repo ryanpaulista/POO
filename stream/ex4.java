@@ -4,8 +4,7 @@ import java.util.stream.*;
 import java.util.stream.Collectors;
 
 
-public class Main
-{
+public class ex4 {
 	public static void main(String[] args) {
 		
         List<String> palavras = Arrays.asList("mão", "pés", "chão", "monitor");
