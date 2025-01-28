@@ -9,7 +9,7 @@ class Esfera extends Figura{
         this.volume = (4/3)*3.14*(raio*raio*raio); 
     }
 
-    Override double getVolume(){
+    public double getVolume(){
         return this.volume + 1000;
     }
 }
