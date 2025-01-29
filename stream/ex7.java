@@ -20,11 +20,6 @@ public class ex7 {
         public int getIdade() {
             return this.idade;
         }
-
-        @Override
-        public String toString() {
-            return "Nome: " + nome + ", Idade: " + idade;
-        }
     }
 
     public static void main(String[] args) {
