@@ -10,7 +10,7 @@ public class ex6{
 	    
 	    Random random = new Random();
 		
-        IntStream numerosAleatorios = random.ints(10, 0, 1000);
+        IntStream numerosAleatorios = random.ints(1000, 0, 10000);
         
         int maiorNumero =  numerosAleatorios
             .parallel()
